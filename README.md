@@ -1,4 +1,4 @@
-# -API-for-sending-notifications
+# API-for-sending-notifications
 This is a small application for sending notifications in 3 different channels. 
 1) SMS 
 2) push 
