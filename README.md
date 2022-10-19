@@ -27,3 +27,7 @@ curl -X GET http://localhost:8765/send/email\?msg\=Somemessage
 Also you can follow `localhost:8765/send/push?msg=Some message` in browser
 
 
+
+
+https://user-images.githubusercontent.com/94602550/196754082-8bbc11ff-9704-4a7e-ac14-a09de4b99d4f.mp4
+
