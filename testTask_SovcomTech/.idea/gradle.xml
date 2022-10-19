@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/api-gateway" name="api-gateway">
+                <projects>
+                  <project path="$PROJECT_DIR$/api-gateway" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/eureka_server" name="eureka_server">
+                <projects>
+                  <project path="$PROJECT_DIR$/eureka_server" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/senderEmail" name="senderEmail">
+                <projects>
+                  <project path="$PROJECT_DIR$/senderEmail" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/senderPush" name="senderPush">
+                <projects>
+                  <project path="$PROJECT_DIR$/senderPush" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/senderSMS" name="senderSMS">
+                <projects>
+                  <project path="$PROJECT_DIR$/senderSMS" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/api-gateway" />
+            <option value="$PROJECT_DIR$/eureka_server" />
+            <option value="$PROJECT_DIR$/senderEmail" />
+            <option value="$PROJECT_DIR$/senderPush" />
+            <option value="$PROJECT_DIR$/senderSMS" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/api-gateway" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/api-gateway" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/eureka_server" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/eureka_server" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/senderEmail" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/senderEmail" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/senderPush" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/senderPush" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/senderSMS" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/senderSMS" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
