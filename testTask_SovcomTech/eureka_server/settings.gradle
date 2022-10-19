@@ -1,1 +1,3 @@
 rootProject.name = 'eureka_server'
+
+include 'testTask_SovcomTech'

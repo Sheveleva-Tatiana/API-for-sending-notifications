@@ -1,7 +1,7 @@
 rootProject.name = 'testTask_SovcomTech'
 
-includeBuild 'api-gateway'
-includeBuild 'eureka_server'
-includeBuild 'senderEmail'
-includeBuild 'senderPush'
-includeBuild 'senderSMS'
+include 'api-gateway'
+include 'eureka_server'
+include 'senderEmail'
+include 'senderPush'
+include 'senderSMS'

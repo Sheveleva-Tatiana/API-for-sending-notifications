@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="api-gateway" target="11" />
+      <module name="api-gateway.main" target="11" />
+      <module name="api-gateway.test" target="11" />
+      <module name="senderEmail" target="11" />
+      <module name="senderEmail.main" target="11" />
+      <module name="senderEmail.test" target="11" />
+      <module name="senderPush" target="11" />
+      <module name="senderPush.main" target="11" />
+      <module name="senderPush.test" target="11" />
+      <module name="senderSMS" target="11" />
+      <module name="senderSMS.main" target="11" />
+      <module name="senderSMS.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

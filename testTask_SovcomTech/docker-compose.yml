@@ -1,0 +1,48 @@
+version: '3.3'
+
+services:
+
+  api-gateway:
+    image: api-gateway:v1
+    build: ./api-gateway
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://service-discovery-application:8761/eureka/
+    ports:
+      - '8080:8080'
+#    depends_on:
+#      - aggregator-application
+    restart: on-failure
+
+  senderEmail:
+    image: senderemail:v1
+    build: ./senderemail
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://service-discovery-application:8761/eureka/
+    depends_on:
+      - eureka_server
+    restart: on-failure
+
+  senderSms:
+    image: sendersms:v1
+    build: ./sendersms
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://service-discovery-application:8761/eureka/
+    depends_on:
+      - eureka_server
+    restart: on-failure
+
+  senderPush:
+      image: senderpushi:v1
+      build: ./senderpush
+      environment:
+        - eureka.client.serviceUrl.defaultZone=http://service-discovery-application:8761/eureka/
+      depends_on:
+        - eureka_server
+      restart: on-failure
+
+  eureka_server:
+    image: eureka_server:v1
+    build: ./eureka_server
+    ports:
+      - '8761:8761'
+    restart: on-failure
